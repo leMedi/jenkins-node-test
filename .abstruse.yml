@@ -1,4 +1,4 @@
-image: abstruse_builder
+image: abstruse
 
 matrix:
   - env: SCRIPT=test
