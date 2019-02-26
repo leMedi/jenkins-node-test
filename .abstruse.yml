@@ -4,6 +4,7 @@ matrix:
   - env: SCRIPT=test
 
 before_install:
+  - nvm ls
   - nvm install v10.15.1
   - npm config set spin false
   - npm config set progress false
